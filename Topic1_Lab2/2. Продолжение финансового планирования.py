@@ -11,4 +11,4 @@ for count_months in range(1, months + 1):
 
     money_capital += spend - salary
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital, 2))
