@@ -36,7 +36,7 @@ class Library:
         if len(self.books) == 0:
             return 1
         else:
-            return len(self.books) + 1
+            return self.books[-1].id_ + 1
 
     def get_index_by_book_id(self, id_: int) -> int:
         for index, current_book in enumerate(self.books):
